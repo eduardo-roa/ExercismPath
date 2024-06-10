@@ -21,7 +21,7 @@ def preparation_time_in_minutes(layers):
     :param layers: int - number of layers that we use in the lasagna
     :return: int - time (in minutes) that each layer take to cook, each layer cook in 2 minutes
     """
-    result = layers * 2
+    result = layers * 20
     return result
 
 preparation_time_in_minutes(2)
