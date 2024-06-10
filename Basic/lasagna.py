@@ -1,5 +1,6 @@
-import Exercism.Basic.lasagna as lasagna
-lasagna.EXPECTED_BAKE_TIME = 40
+"import Exercism.Basic.lasagna as lasagna"
+"lasagna.EXPECTED_BAKE_TIME = 40"
+exp_time = 40
 
 elapsed_time = 30
 
@@ -10,7 +11,7 @@ def bake_time_remaining(elapsed_time):
     :param elapsed_time: int - baking time already elapsed minus .
     :return: int - remaining bake time (in minutes) derived from 'EXPECTED_BAKE_TIME'.
     """
-    result = lasagna.EXPECTED_BAKE_TIME - elapsed_time
+    result = exp_time - elapsed_time
     return result
 
 bake_time_remaining(elapsed_time)
