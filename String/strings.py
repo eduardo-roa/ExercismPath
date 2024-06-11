@@ -46,5 +46,4 @@ def adjective_to_verb(sentence, index):
     For example, ("It got dark as the sun set.", 2) becomes "darken".
     """
 
-    sentence=sentence.split(' ')
-    return sentence[index]
+    return sentence.split()[index].strip(".")+"en"
